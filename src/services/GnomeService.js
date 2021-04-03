@@ -1,4 +1,4 @@
-const url = "http://localhost:3001/api/gnomes"
+const url = "https://tartan-trails-server.herokuapp.com/api/gnomes"
 
 export const fetchGnomes = () => {
     return fetch(url)

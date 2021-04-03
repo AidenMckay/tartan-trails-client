@@ -1,7 +1,7 @@
 import { useHistory } from "react-router-dom"
 
 export default {
-  url: "http://localhost:3001/api",
+  url: "https://tartan-trails-server.herokuapp.com/api",
   signIn: function(username, password) {
     const user = {
       username, password
